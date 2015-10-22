@@ -28,6 +28,7 @@ div {
 
 .grey {
   background-color: #cccccc;
+  width: 100%;
 }
 
 h1 {
@@ -35,6 +36,11 @@ h1 {
   margin: 0;
   padding-top: 1rem;
   padding-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2275b7;
 }
 
 nav ol {
@@ -45,7 +51,7 @@ nav ol {
 }
 
 nav li {
-  color: #2275b7;
+  padding-left: 1rem;
 }
 
 .img-flex {
@@ -105,12 +111,8 @@ figure {
 }
 
 @media only screen and (min-width: 25em) { /*400*/
-nav li{
-  width: 33.3333%;
-}
-
 nav li {
-  display: inline-block;
+  float: left;
 }
 
 .img-flex-small {
@@ -118,7 +120,7 @@ nav li {
 }
 
 .together-2 {
-  width: 50%;
+  width: 40%;
 }
 
 .img-flex-small-2 {
@@ -126,8 +128,7 @@ nav li {
 }
 
 .together-3 {
-  width: 50%;
-  margin-right: 0:
+  width: 40%;
 }
 
 .img-flex-small-3 {
@@ -171,5 +172,12 @@ nav li {
   .img-flex-small-3 {
     width: 100%;
   }
+
+}
+
+
+@media only screen and (min-width: 60em) { /*960*/
+
+
 
 }
