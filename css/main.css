@@ -26,81 +26,60 @@ div {
   margin: 0;
 }
 
-.grey {
+.background-color {
   background-color: #cccccc;
   width: 100%;
+}
+
+.second-background-color {
+  background-color: #e2e2e2;
+}
+
+.third-background-color {
+  background-color: #efefef;
 }
 
 h1 {
   text-align: center;
   margin: 0;
   padding-top: 1rem;
-  padding-bottom: 2rem;
 }
 
 nav a {
   text-decoration: none;
   color: #2275b7;
+  display: block;
+}
+
+.a-background-color:hover{
+  background-color: #0373d7;
+  color: white;
 }
 
 nav ol {
   list-style-type: none;
-  padding-bottom: 0.5rem;
-  padding-left: 0;
-  margin: 0;
-}
-
-nav li {
-  padding-left: 1rem;
+  padding: 0;
 }
 
 .img-flex {
   width: 100%;
 }
 
-figure {
-  margin: 0;
-}
-
-.together-1 {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .img-flex-small {
-  width: 95%;
+  width: 100%;
 }
 
-.fig-1 {
+.fig {
   padding-bottom: 2em;
-}
-
-.together-2 {
-  width: 90%;
-  margin: 0 auto;
 }
 
 .img-flex-small-2{
-  width: 95%;
-}
-
-.fig-2 {
-  padding-bottom: 2em;
-}
-
-.together-3 {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .img-flex-small-3 {
-  width: 95%;
+  width: 100%;
 }
-
-.fig-3 {
-  padding-bottom: 2em;
-}
-
 
 .fake-1 {
   width: 100%;
@@ -115,12 +94,17 @@ nav li {
   float: left;
 }
 
+.together-1 {
+  margin: 0;
+  width: 100%;
+}
+
 .img-flex-small {
   width: 100%;
 }
 
 .together-2 {
-  width: 40%;
+  width: 50%;
 }
 
 .img-flex-small-2 {
@@ -128,7 +112,7 @@ nav li {
 }
 
 .together-3 {
-  width: 40%;
+  width: 50%;
 }
 
 .img-flex-small-3 {
@@ -138,17 +122,13 @@ nav li {
 
 
 @media only screen and (min-width: 38em) { /*608*/
-  .margin{
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
 
   h1 {
     text-align: left;
   }
 
   .together-1 {
-    width: 25%;
+    width: 33.333%;
     margin: 0;
   }
 
@@ -157,7 +137,7 @@ nav li {
   }
 
   .together-2 {
-    width: 25%;
+    width: 33.333%;
   }
 
   .img-flex-small-2 {
@@ -165,7 +145,7 @@ nav li {
   }
 
   .together-3 {
-    width: 25%;
+    width: 33.333%;
     margin: 0;
   }
 
