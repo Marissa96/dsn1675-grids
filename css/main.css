@@ -89,6 +89,10 @@ nav ol {
   width: 100%;
 }
 
+.moon-picture {
+  width: 100%;
+}
+
 @media only screen and (min-width: 25em) { /*400*/
 nav li {
   float: left;
@@ -127,6 +131,9 @@ nav li {
     text-align: left;
   }
 
+  h3 {
+    margin: 0;
+  }
   .together-1 {
     width: 33.333%;
     margin: 0;
